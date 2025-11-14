@@ -1,6 +1,9 @@
 ---
 # https://packit.dev/docs/configuration/
 
+# We want to generate packages with the original commit sha
+# https://packit.dev/docs/configuration#merge_pr_in_ci
+merge_pr_in_ci: false
 
 files_to_sync:
   - src:
